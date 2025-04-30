@@ -44,4 +44,9 @@ class NumeralTests {
     void testFifty(){
         assertEquals("L", n.convert(50));
     }
+
+    @Test 
+    void testOneHundred(){
+        assertEquals("C", n.convert(100));
+    }
 }
