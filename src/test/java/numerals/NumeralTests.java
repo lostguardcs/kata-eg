@@ -19,4 +19,9 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class NumeralTests {
 
+    @Test
+    void testOne(){
+        Numeral n = new Numeral();
+        assertEquals("I", convert(1));
+    }
 }
