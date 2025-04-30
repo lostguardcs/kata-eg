@@ -8,7 +8,7 @@
  * https://www.eclipse.org/legal/epl-v20.html
  */
 
-package numerals;
+package numerals.num;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -22,6 +22,6 @@ class NumeralTests {
     @Test
     void testOne(){
         Numeral n = new Numeral();
-        assertEquals("I", convert(1));
+        assertEquals("I", n.convert(1));
     }
 }
