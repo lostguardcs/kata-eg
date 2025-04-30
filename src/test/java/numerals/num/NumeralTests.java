@@ -39,4 +39,9 @@ class NumeralTests {
     void testTen(){
         assertEquals("X", n.convert(10));
     }
+
+    @Test
+    void testFifty(){
+        assertEquals("L", n.convert(50));
+    }
 }
