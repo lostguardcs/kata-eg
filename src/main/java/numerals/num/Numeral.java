@@ -4,7 +4,9 @@ public class Numeral {
 
 	String convert(int givenNum){
 
-        if (givenNum == 50) {
+        if (givenNum == 100){
+            return "C";
+        } else if (givenNum == 50) {
             return "L";
         } else if (givenNum == 10) {
             return "X";
