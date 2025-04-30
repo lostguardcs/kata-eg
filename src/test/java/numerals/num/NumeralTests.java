@@ -24,16 +24,15 @@ class NumeralTests {
     void setup(){
         n = new Numeral();
     }
-    
+
     @Test
     void testOne(){
-        Numeral n = new Numeral();
         assertEquals("I", n.convert(1));
     }
 
     @Test
     void testFive(){
-        Numeral n = new Numeral();
         assertEquals("V", n.convert(5));
     }
+
 }
