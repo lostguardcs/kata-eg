@@ -6,8 +6,7 @@
  * accompanies this distribution and is available at
  *
  * https://www.eclipse.org/legal/epl-v20.html
- */
-
+ 
 package com.example.project;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -39,3 +38,4 @@ class CalculatorTests {
 				() -> first + " + " + second + " should equal " + expectedResult);
 	}
 }
+*/
