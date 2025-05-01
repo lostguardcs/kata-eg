@@ -36,4 +36,10 @@ class NumeralTests {
     void testTwoThousand(){
         assertEquals("MM", n.convert(2000));
     }
+
+    @Test
+    void testFour(){
+        assertEquals("IV", n.convert(4));
+    }
+
 }
