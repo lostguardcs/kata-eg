@@ -31,4 +31,9 @@ class NumeralTests {
     void testFundamentalNumerals(String result, int input){
         assertEquals(result, n.convert(input));
     }
+
+    @Test
+    void testTwoThousand(){
+        assertEquals("MM", n.convert(2000));
+    }
 }
