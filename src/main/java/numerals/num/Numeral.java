@@ -3,7 +3,9 @@ package numerals.num;
 public class Numeral {
 
 	String convert(int givenNum){
-        if (givenNum == 500){
+        if (givenNum == 1000) {
+            return "M";
+        } else if (givenNum == 500){
             return "D";
         } else if (givenNum == 100){
             return "C";
